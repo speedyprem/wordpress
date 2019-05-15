@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="SampleTest" file="E:\XAMPP\htdocs\wordpress\CLI\wp-tests\wordpress-tests\tests.php" tests="1" assertions="1" failures="1" errors="0" time="0.134080">
+    <testcase name="test_sample" class="SampleTest" file="E:\XAMPP\htdocs\wordpress\CLI\wp-tests\wordpress-tests\tests.php" line="10" assertions="1" time="0.134080">
+      <failure type="PHPUnit_Framework_ExpectationFailedException">SampleTest::test_sample
+Failed asserting that false is true.
+
+E:\XAMPP\htdocs\wordpress\CLI\wp-tests\wordpress-tests\tests.php:11
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
