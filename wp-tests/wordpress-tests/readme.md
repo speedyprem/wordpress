@@ -1,4 +1,4 @@
-The short version:
+# The short version:
 
 1. Create a clean MySQL database and user.  DO NOT USE AN EXISTING DATABASE or you will lose data, guaranteed.
 
@@ -12,7 +12,7 @@ The short version:
    To execute all tests:
       $ phpunit
 
-Notes:
+## Notes:
 
 Test cases live in the 'tests' subdirectory.  All files in that directory will be included by default.  Extend the WP_UnitTestCase class to ensure your test is run.
 
