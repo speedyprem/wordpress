@@ -9,6 +9,8 @@ class SampleTest extends WP_UnitTestCase {
      */
     function test_sample() {
         $this->assertTrue( true );
+        $str = "hello";
+        $this->assertEquals( $str, 'hello' );
+
     }
 }
-?>
